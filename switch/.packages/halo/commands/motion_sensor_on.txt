@@ -1,0 +1,1 @@
+hud_show_motion_sensor true
