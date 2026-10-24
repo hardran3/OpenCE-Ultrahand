@@ -11,4 +11,9 @@ Thumbs.db
 *.tmp
 *.bak
 *.swp
+.*.swp
+*kate-swp*
 *~
+
+# Reference notes
+halo-console-commands.md

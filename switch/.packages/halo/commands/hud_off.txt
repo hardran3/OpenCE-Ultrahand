@@ -1,0 +1,1 @@
+show_hud false
