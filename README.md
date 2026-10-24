@@ -20,7 +20,7 @@ Before installing, make sure your Switch has the following installed and working
 
 ### 🎮 Cheats
 - **God Mode**: Toggle deathless player (`On` / `Off`).
-- **Infinite Ammo**: Toggle unlimited ammo reserves.
+- **Infinite Ammo**: Toggle unlimited ammo reserves (`On` / `Off`).
 - **Bottomless Clip**: Toggle bottomless clip without reloading (`On` / `Off`).
 - **Super Jump**: Toggle high jump height (`On` / `Off`).
 - **Medusa Mode**: Toggle Medusa gaze mode (`On` / `Off`).
@@ -37,6 +37,9 @@ Before installing, make sure your Switch has the following installed and working
 - **Toggle Interpolation**: Enable or disable display frame interpolation (`On` / `Off`).
 - **Show Resolution & FPS**: Enable or disable real-time resolution and framerate overlay (`On` / `Off`).
 
+### 📦 Updates
+- **Update Overlay Package**: Download and install the latest release directly from GitHub *(hold to execute)*.
+
 ---
 
 ## Installation
@@ -50,6 +53,7 @@ Before installing, make sure your Switch has the following installed and working
            └── halo/
                ├── package.ini
                └── commands/
+                   ├── ammo_off.txt
                    ├── ammo_on.txt
                    ├── clip_off.txt
                    ├── clip_on.txt
@@ -81,7 +85,7 @@ Before installing, make sure your Switch has the following installed and working
 1. Launch **Halo: Combat Evolved** on your Switch.
 2. Open the Tesla / Ultrahand Overlay menu (default hotkey is `L + D-Pad Down + R3`).
 3. Select **Halo Settings** from the Ultrahand packages menu, accessed by pressing right on d-pad.
-4. Navigate through the categories (**Cheats**, **Game Actions**, or **Config & Performance**) and select the desired command.
+4. Navigate through the categories (**Cheats**, **Game Actions**, **Config & Performance**, or **Updates**) and select the desired command.
    - For commands marked with `;hold=true` (such as spawns and revert), hold the confirm button to execute.
 
 ### How It Works
