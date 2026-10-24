@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Determine Version
+        id: get_version
+        run: |
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            TAG="${{ github.ref_name }}"
+            VERSION="${TAG#v}"
+          else
+            VERSION=$(grep -m1 '^;version=' switch/.packages/halo/package.ini | cut -d'=' -f2 | tr -d '\r')
+            TAG="v${VERSION}"
+          fi
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+
+      - name: Package Release ZIP
+        run: |
+          zip -r "OpenCE-Ultrahand-${{ steps.get_version.outputs.tag }}.zip" switch README.md
+          zip -r "OpenCE-Ultrahand.zip" switch README.md
+
+      - name: Create or Update GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.get_version.outputs.tag }}
+          name: "OpenCE-Ultrahand ${{ steps.get_version.outputs.tag }}"
+          files: |
+            OpenCE-Ultrahand-${{ steps.get_version.outputs.tag }}.zip
+            OpenCE-Ultrahand.zip
+          generate_release_notes: true
