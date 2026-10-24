@@ -11,7 +11,7 @@ An [Ultrahand Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) package
 Before installing, make sure your Switch has the following installed and working:
 
 1. **Custom Firmware**: A modified Nintendo Switch running [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere).
-2. **Overlay Environment**: [Ultrahand Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) (along with nx-ovlloader / Tesla environment).
+2. **Overlay Environment**: [Ultrahand Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) (along with nx-ovlloader / Tesla environment). Tested working on Ultrahand version 2.5.3; updating to the latest version is recommended.
 3. **Halo Port**: The Nintendo Switch port (build 119 or later) of [Open CE Universal](https://github.com/thelinkin3000/halo-ce-universal).
 
 ---
