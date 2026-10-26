@@ -35,19 +35,19 @@ Before installing, make sure your Switch has the following installed and working
 - **Spawn All Vehicles**: Instantly spawn all vehicles nearby *(hold to execute)*.
 
 ### ⚡ Game Speed
-- **1x (Normal)**: Set speed to normal.
-- **2x**: Set speed to 2x.
-- **3x**: Set speed to 3x.
-- **4x**: Set speed to 4x.
-- **5x**: Set speed to 5x.
-- **10x**: Set speed to 10x.
+- **1x (Normal)**: Set gameplay speed to 1x.
+- **2x**: Set gameplay speed to 2x.
+- **3x**: Set gameplay speed to 3x.
+- **4x**: Set gameplay speed to 4x.
+- **5x**: Set gameplay speed to 5x.
+- **10x**: Set gameplay speed to 10x.
 
 ### 🕹️ HUD
-- **HUD Visibility**: Toggle in-game HUD display (`On` / `Off`). Defaults to `On`.
-- **Crosshair**: Toggle reticle visibility (`On` / `Off`). Defaults to `On`.
-- **Health Bar**: Toggle health bar indicator (`On` / `Off`). Defaults to `On`.
-- **Shield Bar**: Toggle shield bar indicator (`On` / `Off`). Defaults to `On`.
-- **Motion Sensor**: Toggle radar / motion tracker (`On` / `Off`). Defaults to `On`.
+- **HUD Visibility**: Toggle in-game HUD display (`On` / `Off`).
+- **Crosshair**: Toggle reticle visibility (`On` / `Off`).
+- **Health Bar**: Toggle health bar indicator (`On` / `Off`).
+- **Shield Bar**: Toggle shield bar indicator (`On` / `Off`).
+- **Motion Sensor**: Toggle radar / motion tracker (`On` / `Off`).
 
 ### 🎥 Camera
 - **Set Default Player Camera**: Switch to the standard first-person player camera.
@@ -59,7 +59,8 @@ Before installing, make sure your Switch has the following installed and working
 ### ⚙️ System
 - **Display Framerate**: Toggle basic FPS display (`On` / `Off`).
 - **Show Resolution & FPS**: Toggle live resolution and framerate overlay (`On` / `Off`). *(Conditional to OpenCE)*.
-- **Save Game (Unsafe)**: Force save the current game state *(hold to execute)*.
+- **Detailed FPS**: Toggle detailed FPS stats (`On` / `Off`). *(Advanced Mode)*.
+- **Force Checkpoint**: Force save the current game state *(hold to execute)*.
 - **Revert to Last Checkpoint**: Revert game state to last saved checkpoint *(hold to execute)*.
 - **Wireframe Mode**: Toggle wireframe rendering (`On` / `Off`). *(Advanced Mode)*.
 - **Environment Textures**: Toggle environment diffuse textures (`On` / `Off`). *(Advanced Mode)*.
@@ -69,7 +70,6 @@ Before installing, make sure your Switch has the following installed and working
 - **Lens Flares**: Toggle lens flare effects (`On` / `Off`). *(Advanced Mode)*.
 - **Screen Effects**: Toggle full-screen post-processing effects (`On` / `Off`). *(Advanced Mode)*.
 - **Weather Particles**: Toggle weather particle rendering (`On` / `Off`). *(Advanced Mode)*.
-- **Nintendo Menu Buttons**: Toggle Nintendo button layout (`On` / `Off`). Defaults to `On`. *(Advanced Mode)*.
 
 ### 📦 Settings
 - **Engine: OpenCE**: Active engine indicator for OpenCE *(hold to execute)*.
