@@ -22,7 +22,7 @@ Before installing, make sure your Switch has the following installed and working
 
 ### 🎮 Cheats
 - **God Mode**: Toggle deathless player (`On` / `Off`).
-- **Omnipotent Mode**: Toggle one-shot kills (`On` / `Off`).
+- **Omnipotent**: Toggle one-shot kills (`On` / `Off`).
 - **Infinite Ammo**: Toggle unlimited ammo reserves (`On` / `Off`).
 - **Bottomless Clip**: Toggle bottomless clip without reloading (`On` / `Off`).
 - **Super Jump**: Toggle high jump height (`On` / `Off`).
@@ -34,6 +34,14 @@ Before installing, make sure your Switch has the following installed and working
 - **Spawn All Powerups**: Instantly drop all powerups nearby *(hold to execute)*.
 - **Spawn All Vehicles**: Instantly spawn all vehicles nearby *(hold to execute)*.
 
+### ⚡ Game Speed
+- **1x (Normal)**: Set speed to normal.
+- **2x**: Set speed to 2x.
+- **3x**: Set speed to 3x.
+- **4x**: Set speed to 4x.
+- **5x**: Set speed to 5x.
+- **10x**: Set speed to 10x.
+
 ### 🕹️ HUD
 - **HUD Visibility**: Toggle in-game HUD display (`On` / `Off`). Defaults to `On`.
 - **Crosshair**: Toggle reticle visibility (`On` / `Off`). Defaults to `On`.
@@ -42,27 +50,32 @@ Before installing, make sure your Switch has the following installed and working
 - **Motion Sensor**: Toggle radar / motion tracker (`On` / `Off`). Defaults to `On`.
 
 ### 🎥 Camera
-- **Default Player Camera**: Switch to the standard first-person player camera.
-- **Cinematic Camera**: Switch to the scripted cinematic camera.
+- **Set Default Player Camera**: Switch to the standard first-person player camera.
+- **Set Cinematic Camera**: Switch to the scripted cinematic camera.
 - **Load Debug Camera**: Load saved debug camera coordinates.
 - **Save Debug Camera**: Save current debug camera position.
 - **Teleport to Camera**: Teleport player character directly to current camera location.
 
-### ⚡ Game Speed
-- **Speed Options**: Set gameplay speed to `1x (Normal)`, `2x`, `3x`, `4x`, `5x`, or `10x`.
-
-### ⚙️ System & Performance
+### ⚙️ System
 - **Display Framerate**: Toggle basic FPS display (`On` / `Off`).
 - **Show Resolution & FPS**: Toggle live resolution and framerate overlay (`On` / `Off`). *(Conditional to OpenCE)*.
+- **Save Game (Unsafe)**: Force save the current game state *(hold to execute)*.
+- **Revert to Last Checkpoint**: Revert game state to last saved checkpoint *(hold to execute)*.
 - **Wireframe Mode**: Toggle wireframe rendering (`On` / `Off`). *(Advanced Mode)*.
 - **Environment Textures**: Toggle environment diffuse textures (`On` / `Off`). *(Advanced Mode)*.
+- **Atmospheric Fog**: Toggle level atmospheric fog (`On` / `Off`). *(Advanced Mode)*.
+- **Fog Plane**: Toggle level fog plane rendering (`On` / `Off`). *(Advanced Mode)*.
+- **Environment Shadows**: Toggle environment shadow rendering (`On` / `Off`). *(Advanced Mode)*.
+- **Lens Flares**: Toggle lens flare effects (`On` / `Off`). *(Advanced Mode)*.
+- **Screen Effects**: Toggle full-screen post-processing effects (`On` / `Off`). *(Advanced Mode)*.
+- **Weather Particles**: Toggle weather particle rendering (`On` / `Off`). *(Advanced Mode)*.
 - **Nintendo Menu Buttons**: Toggle Nintendo button layout (`On` / `Off`). Defaults to `On`. *(Advanced Mode)*.
-- **Save Game (Unsafe)**: Force save the current game state *(hold to execute)*.
-- **Revert Checkpoint**: Revert game state to last saved checkpoint *(hold to execute)*.
 
 ### 📦 Settings
-- **Engine Detection**: Active engine detection indicator (`OpenCE` / `ChupaThingyCE`).
-- **Donut Mode / Advanced Mode**: Toggle hidden advanced configuration menu items (`On` / `Off`).
+- **Engine: OpenCE**: Active engine indicator for OpenCE *(hold to execute)*.
+- **Engine: ChupaThingyCE**: Active engine indicator for ChupaThingyCE *(hold to execute)*.
+- **Donut Mode**: Toggle advanced configuration options on ChupaThingyCE (`On` / `Off`).
+- **Advanced Mode**: Toggle advanced configuration options on OpenCE (`On` / `Off`).
 - **Disable Notifications**: Globally mute pop-up overlay notifications (`On` / `Off`).
 - **Update Halo Overlay**: Download and extract the latest package release directly from GitHub *(hold to execute)*.
 

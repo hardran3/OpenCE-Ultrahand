@@ -1,0 +1,1 @@
+rasterizer_lens_flares true
